@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+runs/
+outputs/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+
+datasets/FireData/train/
+datasets/FireData/valid/
+datasets/FireData/test/
+
+*.cache
+
+# Pretrained and trained model weights can become large. Keep models/best.pt if
+# you want this repository to include a small ready-to-run checkpoint.
+yolov8n.pt

@@ -1,0 +1,12 @@
+train: train/images
+val: valid/images
+
+nc: 2
+names: ['Fire', 'Smoke']
+
+#roboflow:
+#  workspace: huazhong-university-of-science-and-technology-ws6fw
+#  project: fire-and-smoke-detection-system-ycbil
+#  version: 11
+#  license: CC BY 4.0
+#  url: https://universe.roboflow.com/huazhong-university-of-science-and-technology-ws6fw/fire-and-smoke-detection-system-ycbil/dataset/11
